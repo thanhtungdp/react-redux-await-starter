@@ -61,10 +61,10 @@ Root
 |	|	├── actions
 |	|	├── containers
 |	|	├── Root.js
-│   ├── routes
 │   ├── stylesheets
 │   ├── views
 │   ├── App.js
+│   ├── routes.js
 ├── configs
 |	├── webpack_dev.js
 ├── public
@@ -83,7 +83,7 @@ import '../node_modules/font-awesome/scss/font-awesome.scss'
 import './stylesheets/style.scss';
 ```
 ## Using with react router
-You can edit at `app/routes/index.js`
+You can edit at `app/routes.js`
 ``` javascript
 // Import react
 import React from 'react';
